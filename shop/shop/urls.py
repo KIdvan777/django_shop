@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from header.views import(header_view, shop_view, login_view, detail_view, contact_view, checkout_view, cart_view, blog_view,
+from app.views import(header_view, shop_view, login_view, detail_view, contact_view, checkout_view, cart_view, blog_view,
     blog_single_view, page_404_view)
 
 urlpatterns = [
